@@ -15,21 +15,21 @@
       <p>O primeiro passo, é preencher esse
         formulário de inscrição.</p>
     </header>
-    <form action="" class="form">
+    <form action="" form="form" class="form" id="form-register">
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Informações do Evento</legend>
           <div class="input-wrapper">
             <label for="event-title">Event Title <span>(Description)</span> </label>
-            <input type="text" name="title-event" id="title-event">
+            <input type="text" name="title-event" id="title-event" required maxlength="10">
           </div>
           <div class="input-wrapper">
             <label for="event-title">Event Link <span>(The link is init with: https://)</span> </label>
-            <input type="text" name="link-event" id="link-event">
+            <input type="text" name="link-event" id="link-event" required>
           </div>
           <div class="input-wrapper">
             <label for="event-title">WhatsApp for contact <span>(Only numbers)</span> </label>
-            <input type="text" name="whatsapp-event" id="whatsapp-event">
+            <input type="text" name="whatsapp-event" id="whatsapp-event" required>
           </div>
           <div class="input-wrapper">
             <label for="event-title">Extra Information</label>
@@ -54,14 +54,14 @@
           <legend>Privacidade</legend>
           <div class="input-wrapper">
             <label for="email-title">E-mail <span>(Description)</span> </label>
-            <input type="email" name="email-event" id="email-event">
+            <input type="email" name="email-event" id="email-event" required>
           </div>
           <div class="input-wrapper">
             <label for="password-title">Password Access <span>(Put the security password)</span> </label>
-            <input type="password" name="password-event" id="password-event">
+            <input type="password" name="password-event" id="password-event" required>
           </div>
           <div class="checkbox-wrapper">
-            <input type="checkbox" name="check-privacy-event" id="check-privacy-event">
+            <input type="checkbox" name="check-privacy-event" id="check-privacy-event" required>
             <label for="check-privacy-event">Checkbox - Rules </label>
           </div>
         </div>
@@ -73,20 +73,23 @@
           <div class="clock-block">
             <div class="input-wrapper">
               <label for="date-title">Date</label>
-              <input type="date" name="date-event" id="date-event">
+              <input type="date" name="date-event" id="date-event" required>
             </div>
             <div class="input-wrapper">
               <label for="event-start">Das</label>
-              <input type="time" name="event-start" id="event-start">
+              <input type="time" name="event-start" id="event-start" required>
             </div>
             <div class="input-wrapper">
               <label for="event-end">Ate</label>
-              <input type="time" name="event-end" id="event-end">
+              <input type="time" name="event-end" id="event-end" required>
             </div>
           </div>
         </div>
       </fieldset>
     </form>
+    <footer class="footer-block">
+      <button type="submit" form="form-register" class="button-submit">Send form</button>
+    </footer>
   </div>
 </body>
 
