@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulários - Repo#3</title>
+  <link rel="stylesheet" href="/src/assets//styles/main.css">
 </head>
+
 <body>
-  
+  <div id="content">
+    <header>
+      <h1>Crie e compartilhe seu evento</h1>
+      <p>O primeiro passo, é preencher esse
+        formulário de inscrição.</p>
+    </header>
+    <form action="" class="form">
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações do Evento</legend>
+          <div class="input-wrapper">
+            <label for="event-title">Event Title <span>(Description)</span> </label>
+            <input type="text" name="title-event" id="title-event">
+          </div>
+          <div class="input-wrapper">
+            <label for="event-title">Event Link <span>(The link is init with: https://)</span> </label>
+            <input type="text" name="link-event" id="link-event">
+          </div>
+          <div class="input-wrapper">
+            <label for="event-title">WhatsApp for contact <span>(Only numbers)</span> </label>
+            <input type="text" name="whatsapp-event" id="whatsapp-event">
+          </div>
+          <div class="input-wrapper">
+            <label for="event-title">Extra Information</label>
+            <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+          </div>
+          <div class="input-wrapper">
+            <label for="event-title">Extra Information</label>
+            <select name="category" id="category">
+              <option>Select your - category</option>
+              <option value="0">RPG Server</option>
+              <option value="1">Customizations</option>
+              <option value="2">Front-End development</option>
+              <option value="3">Back-End development</option>
+              <option value="4">Mobile development</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Privacidade</legend>
+          <div class="input-wrapper">
+            <label for="email-title">E-mail <span>(Description)</span> </label>
+            <input type="email" name="email-event" id="email-event">
+          </div>
+          <div class="input-wrapper">
+            <label for="password-title">Password Access <span>(Put the security password)</span> </label>
+            <input type="password" name="password-event" id="password-event">
+          </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" name="check-privacy-event" id="check-privacy-event">
+            <label for="check-privacy-event">Checkbox - Rules </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Dia & Hora</legend>
+          <div class="clock-block">
+            <div class="input-wrapper">
+              <label for="date-title">Date</label>
+              <input type="date" name="date-event" id="date-event">
+            </div>
+            <div class="input-wrapper">
+              <label for="event-start">Das</label>
+              <input type="time" name="event-start" id="event-start">
+            </div>
+            <div class="input-wrapper">
+              <label for="event-end">Ate</label>
+              <input type="time" name="event-end" id="event-end">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
 </body>
+
 </html>
