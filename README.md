@@ -11,4 +11,4 @@
 </ul>
 <center>===================================================</center>
 <p>
-O layout deste formulário foi desenvolvido pelos desenvolvedores da #rocketseat & e pode ser acessado através do url: https://www.figma.com/file/LpmuT3z2YUaREfepxEPKBk/Explorer-Stage-03-Projeto-01-(Copy)?type=design&node-id=0-1&mode=design&t=qqO2BYhLbiNnUEAi-0</p>
+O layout deste formulário foi desenvolvido pelos desenvolvedores da #rocketseat & pode ser acessado através do url: <a target="_blank" href="https://www.figma.com/file/LpmuT3z2YUaREfepxEPKBk/Explorer-Stage-03-Projeto-01-(Copy)?type=design&node-id=0-1&mode=design&t=qqO2BYhLbiNnUEAi-0">Layout</a></p>
